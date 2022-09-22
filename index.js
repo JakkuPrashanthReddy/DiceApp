@@ -28,7 +28,7 @@ function getRandomNumber() {
 }
 
 function randomDiceImage(num) {
-    var Image = "/images/dice" + num + ".png";
+    var Image = "https://raw.githubusercontent.com/PrashanthReddy03/DiceApp/main/images/dice" + num + ".png";
     return Image;
 }
 
