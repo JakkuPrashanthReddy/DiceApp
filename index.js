@@ -7,10 +7,15 @@ if (randomNumber1 > randomNumber2)
     var text = document.querySelectorAll("h1")[0];
     text.innerHTML = "🚩 Player 1 Wins";
 }
-else
+else if(randomNumber2 > randomNumber1)
 {
     var text = document.querySelectorAll("h1")[0];
     text.innerHTML = "Player 2 Wins 🚩";
+}
+else
+{
+    var text = document.querySelectorAll("h1")[0];
+    text.innerHTML = "it's a Tie";
 }
 
 var Image1 = randomDiceImage(randomNumber1);
